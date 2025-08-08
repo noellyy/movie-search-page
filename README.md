@@ -1,12 +1,53 @@
-# React + Vite
+# Reelfy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application to search for movies, view trending titles, and track popular searches. Built with Vite, Tailwind CSS, and Appwrite for trending analytics.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Search Movies:** Instantly search through thousands of movies using The Movie Database (TMDb) API.
+- 📈 **Trending Movies:** Displays the top 5 trending movies based on user search activity, powered by Appwrite.
+- 🎬 **Movie Details:** View movie posters, ratings, release years, and languages.
+- ⚡ **Fast & Responsive:** Built with Vite and styled using Tailwind CSS for a seamless user experience.
+- 🌀 **Loading Spinner:** Visual feedback while fetching data.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/movie-search-app.git
+   cd movie-search-app
+   
+Install dependencies:
+
+Set up environment variables:
+
+Create a .env.local file in the root directory with the following content (replace with your own keys if needed):
+
+Running the App
+Start the development server:
+
+Open http://localhost:5173 in your browser.
+
+Building for Production
+Linting
+Project Structure
+src/Components/ – React components (MovieCard, Search, Spinner)
+src/appwrite.js – Appwrite integration for trending analytics
+src/App.jsx – Main application logic
+src/index.css – Tailwind CSS and custom styles
+Environment Variables
+See .env.local for required variables.
+
+Credits
+TMDb API
+Appwrite
+Tailwind CSS
+Vite
+Note: This project is for educational/demo purposes. You must provide your own API keys for TMDb and Appwrite.
