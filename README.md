@@ -1,6 +1,7 @@
 # Reelfy
 
 A modern React application to search for movies, view trending titles, and track popular searches. Built with Vite, Tailwind CSS, and Appwrite for trending analytics.
+[Reelfy](https://reelfy.netlify.app/)
 
 ## Features
 
